@@ -33,7 +33,7 @@
               DECLARE rLower REFERENCE TO rIn;CALL moveRef(rLower, '+lower');
               DECLARE isSmaller BOOLEAN; DECLARE isBigger BOOLEAN; MOVE rIn FIRSTCHILD NAME sibling;
               WHILE LASTMOVE( rIn ) DO
-	            DECLARE rElem REFERENCE TO rIn;CALL moveRefExisting(rElem, element);
+                DECLARE rElem REFERENCE TO rIn;CALL moveRefExisting(rElem, element);
                 IF typeCast = '' THEN
                 SET isSmaller = rElem < rPiv;
                 SET isBigger = rElem > rPiv;
@@ -85,5 +85,5 @@
           END IF;
         END WHILE;
       END IF;
-    END IF; 
-  END;  
+    END IF;
+  END;
