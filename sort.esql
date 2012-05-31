@@ -38,7 +38,7 @@
                   DECLARE rElemTmp REFERENCE TO rIn;CALL moveRefExisting(rElemTmp, element);
                   CREATE FIRSTCHILD OF rElem NAME 'tmp' VALUE rElemTmp;
                 END IF;
-              	MOVE rElem FIRSTCHILD NAME 'tmp';
+                MOVE rElem FIRSTCHILD NAME 'tmp';
                 IF typeCast = '' THEN
                 SET isSmaller = rElem < rPiv;
                 SET isBigger = rElem > rPiv;
