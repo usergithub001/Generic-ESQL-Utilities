@@ -107,6 +107,15 @@
       END IF;
    END;
 
+   CREATE PROCEDURE removeField( IN refList REFERENCE, IN sibling CHAR, IN field CHAR)
+   BEGIN
+     MOVE refList FIRSTCHILD NAME sibling;
+     WHILE LASTMOVE( refList ) DO
+       SET refList.{field} = NULL;
+       MOVE refList NEXTSIBLING REPEAT TYPE NAME;
+     END WHILE;
+   END;
+
    CREATE PROCEDURE removeFieldFromChildren( IN ref REFERENCE, IN name CHAR, IN value CHAR)
    -- Wrapper/Forwarder to removeFieldFromChildrenReturn: SPARES the RETURNS INT
    BEGIN
