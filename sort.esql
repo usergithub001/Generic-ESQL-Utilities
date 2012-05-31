@@ -34,9 +34,9 @@
               DECLARE isSmaller BOOLEAN; DECLARE isBigger BOOLEAN; MOVE rIn FIRSTCHILD NAME sibling;
               WHILE LASTMOVE( rIn ) DO
                 DECLARE rElem REFERENCE TO rIn;
-              	If recDepth = 0 THEN  -- Pre-Processing
+                If recDepth = 0 THEN -- Pre-Processing
                   DECLARE rElemTmp REFERENCE TO rIn;CALL moveRefExisting(rElemTmp, element);
-                  CREATE FIRSTCHILD OF rElem NAME 'tmp' VALUE rElemTmp;                	
+                  CREATE FIRSTCHILD OF rElem NAME 'tmp' VALUE rElemTmp;
                 END IF;
               	MOVE rElem FIRSTCHILD NAME 'tmp';
                 IF typeCast = '' THEN
