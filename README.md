@@ -16,5 +16,5 @@ Feature requests are listed in the [Issues-Section](https://github.com/mqsiuser/
 
 
 <a href="http://www4.clustrmaps.com/user/6891064b2">
-<img src="http://www4.clustrmaps.com/stats/maps-no_clusters/https---github.com-mqsiuser-Generic-ESQL-Utilities-thumb.jpg" alt="Locations of visitors to this page" />
+<img src="http://www4.clustrmaps.com/stats/maps-no_clusters/https---github.com-mqsiuser-Generic-ESQL-Utilities-thumb.jpg" alt="Site Statistics" />
 </a>
