@@ -13,8 +13,3 @@ Feature requests are listed in the [Issues-Section](https://github.com/mqsiuser/
    There should be no errors (red crosses) in Eclipse after the import. 
 3. Reference the project from your existing projects and start using the ESQL-Flows and -PROCEDUREs.
 
-
-
-<a href="http://www4.clustrmaps.com/user/6891064b2">
-<img src="http://www4.clustrmaps.com/stats/maps-no_clusters/https---github.com-mqsiuser-Generic-ESQL-Utilities-thumb.jpg" alt="Site Statistics" />
-</a>
