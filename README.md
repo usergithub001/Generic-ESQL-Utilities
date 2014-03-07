@@ -1,4 +1,4 @@
-# Generic ESQL-Utilities for IBM Message Broker
+# Generic ESQL-Utilities for IBM Message Broker and IBM Integration Bus
 **For Message Broker 6,7&8 and IIB 9 and beyond**
 
 ## Wiki
