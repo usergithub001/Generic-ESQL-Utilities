@@ -1,5 +1,5 @@
-# Generic ESQL-Utilities for IBM Message Broker and IBM Integration Bus
-**For Message Broker 6,7&8 and IIB 9 and beyond**
+# Generic ESQL-Utilities
+**For Message Broker 6,7&8 and Integration Bus 9 and beyond**
 
 ## Wiki
 Read the [Wiki pages](https://github.com/mqsiuser/Generic-ESQL-Utilities/wiki) for further information about the project.
