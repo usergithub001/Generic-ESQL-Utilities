@@ -8,7 +8,7 @@ Read the [Wiki pages](https://github.com/mqsiuser/Generic-ESQL-Utilities/wiki) f
 Feature requests are listed in the [Issues-Section](https://github.com/mqsiuser/Generic-ESQL-Utilities/issues).
 
 ## Install instructions:
-1. [Download](https://github.com/mqsiuser/Generic-ESQL-Utilities/archives/master) the code. 
+1. [Download](https://github.com/mqsiuser/Generic-ESQL-Utilities/archive/master) the code. 
 2. Extract and import "as a project" into your Message Broker Toolkit. 
    There should be no errors (red crosses) in Eclipse after the import. 
 3. Reference the project from your existing projects and start using the ESQL-Flows and -PROCEDUREs.
